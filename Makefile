@@ -32,4 +32,4 @@ test-dicts:
 	uv run pytest -v tests/test_dicts.py::TestDictsFunctions
 
 test:
-	uv run pytest
+	uv run pytest -v
